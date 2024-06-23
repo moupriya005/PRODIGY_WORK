@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Tic-Tac-Toe</title>
+</head>
+<body>
+    <h1>Tic-Tac-Toe</h1>
+    <div class="background-image">
+        <img src="images.jpg" alt="background images">
+    </div>
+    <button id="playButton" class="hidden">Play with Friend </button>
+    <button id="playComputer" class="hidden">Play with Computer</button>
+    <button id="letComputerPlayFirst" class="hidden">Let Computer Play First</button>
+    <div class="container">
+        <div id="gameContainer" class="hidden">
+            <div class="game-board" id="gameBoard">
+                <!-- The game board cells will be dynamically generated here -->
+            </div>
+            <div class="status" id="status">
+                You are player 'X' and player 'O' is computer. Press any empty box to begin the game play.
+                <!-- Game status/message will be displayed here -->
+            </div>
+            <button id="resetButton">Restart Game</button>
+            <button id="goBack">ENd Game</button>
+        </div>
+    </div>
+    <div id="thankYouMessage" class="hidden">Thank You for Playing</div>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
